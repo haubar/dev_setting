@@ -1,0 +1,25 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoFileName",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"INI",
+		"phpfmt",
+		"Pylinter",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"sublimelint",
+		"SublimeREPL",
+		"Terminal",
+		"Theme - Aprosopo",
+		"Themr",
+		"TrailingSpaces"
+	]
+}
