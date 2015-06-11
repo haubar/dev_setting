@@ -39,7 +39,7 @@ ZSH_THEME="agnoster"
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="yyyy/mm/dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -48,7 +48,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git composer brew npm node pip gem python osx github postgres heroku)
+plugins=(git composer brew npm nvm node pip gem python osx heroku redis-cli)
 
 # User configuration
 
@@ -92,6 +92,8 @@ alias composer="php /usr/bin/composer.phar"
 alias phpunit="vendor/bin/phpunit"
 
 alias vim="mvim"
+
+source ~/.nvm/nvm.sh
 
 ### add bash path for setting
 #export BASH=$HOME/.bashrc
